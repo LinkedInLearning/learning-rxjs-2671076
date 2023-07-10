@@ -1,11 +1,14 @@
 import { data } from './data.js';
 import { from } from 'rxjs'
+import { filter, map } from 'rxjs/operators'
 
-// Kreieren eines Observable anhand eines Arrays
 const searchResult$ = from(data);
 
-// Mit Hilfe der pipe-Funktionen leiten wir die pipeable-Operatoren ein
-searchResult$.pipe(
+const subscription = searchResult$.pipe(
+  map(person => person.name),
+  filter(name => name.includes('au'))
+).subscribe(console.log);
 
-).subscribe(console.log)
-
+setTimeout(() => {
+  subscription.unsubscribe();
+}, 3000)
