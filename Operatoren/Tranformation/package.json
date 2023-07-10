@@ -1,0 +1,20 @@
+{
+  "name": "tranformation",
+  "version": "1.0.0",
+  "description": "Beispiele für Tranformation-Operatoren",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [
+    "rxjs",
+    "map",
+    "pluck"
+  ],
+  "author": "Martina Kraus",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^7.8.1"
+  }
+}
