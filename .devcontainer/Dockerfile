@@ -1,6 +1,5 @@
 # [Choice] Node.js version: none, lts/*, 18, 16, 14
-ARG NODE_VERSION="none"
-RUN if [ "${NODE_VERSION}" != "none" ]; then su vscode -c "umask 0002 && . /usr/local/share/nvm/nvm.sh && nvm install ${NODE_VERSION} 2>&1"; fi
+ARG NODE_VERSION="lts-bullseye"
 
 FROM node:${NODE_VERSION}
 # [Optional] Uncomment this section to install additional OS packages.
