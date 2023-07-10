@@ -1,12 +1,17 @@
 import { withLatestFrom, map } from 'rxjs/operators';
 import { interval } from 'rxjs';
-//emit every 1s
-const source = interval(1000);
-//emit every 500ms
-const secondSource = interval(500);
 
-const example = source.pipe(
-  withLatestFrom(secondSource),
+// Werte werden Sekündlich emitted
+const source$ = interval(1000);
+// Werte werden alle 500ms emitted
+const secondSource$ = interval(500);
+
+source$.pipe(
+  // Mit Hilfe des withLatestFrom-Operator kombinieren wir die Werte des
+  // Haupt-Observables source$ mit dem Wert welches zu dem aktuellen Zeitpunkt von dem Observables 
+  // secondSource$ emitted wurde
+  withLatestFrom(secondSource$),
+  // Mit Hilfe des map-Operators führen wir beide Werte, beider Observables zusammen
   map(([first, second]) => {
     return `First Source (1000s): ${first} Second Source (500ms): ${second}`;
   })

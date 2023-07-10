@@ -1,11 +1,12 @@
-import { of, interval } from 'rxjs'
-import { map, catchError } from 'rxjs/operators'
+import { interval } from 'rxjs'
 
-const input$ = interval(500).pipe(map((num) => {
-  if (num === 4) throw 'error'
-  return num;
-}));
+// Mit Hilfe des interval-Operators erstellen wir ein Observables welches 
+// periodisch anhand einer definierten Zeit Werte emitted (in diesem Fall 1000ms)
+const input$ = interval(1000);
 
-const errorHandler$ = of(11, 12);
+// Mit Hilfe des of-Operators erstellen wir ein Observables, welches die 
+// Werte 11, 21, 8 und 23 nacheinander emitted
+// const input$ = of(11, 21, 8, 23);
 
-input$.pipe(catchError((error) => errorHandler$)).subscribe(console.log);
+// Mit Hilfe der subscribe Funktion abonnieren wir uns auf das Observable
+input$.subscribe(console.log);
