@@ -4,22 +4,7 @@ Dies ist das Repository für den **LinkedIn Learning** Kurs `[COURSENAME]`. Den 
 
 ![COURSENAME][lil-thumbnail-url] 
 
-[Marketing Paragraph for Codespaces - without Codespaces: _remove all 3 pragraphs_ - with Codespace: _keep the right paragraph_ for the right course type (1 of 3)]
-
-[Practice It: X | All Other [Project Mojo] Courses]
-
-Dieser Kurs ist in GitHub Codespaces integriert, eine sofort verfügbare Cloud-Entwicklungsumgebung, die alle Funktionen Ihrer bevorzugten IDE bietet, ohne dass Sie einen lokalen Rechner einrichten müssen. Mit Codespaces können Sie von jedem Rechner aus und zu jeder Zeit praktische Übungen durchführen - und dabei ein Tool verwenden, das Ihnen häufig in der Praxis begegnen wird. Sehen Sie sich das Video "Wie verwende ich GitHub Codespaces mit diesem Kurs?" an, um zu erfahren, wie Sie anfangen können.  
-
-[Hands-On Introduction to X]
-
-Der beste Weg, eine Programmiersprache zu lernen, ist, sie in der Praxis anzuwenden. Deshalb ist dieser Kurs in GitHub Codespaces integriert, eine sofort verfügbare Cloud-Entwicklungsumgebung, die alle Funktionen Ihrer bevorzugten IDE bietet, ohne dass Sie einen lokalen Rechner einrichten müssen. Mit Codespaces können Sie von jedem Rechner aus und zu jeder Zeit praktische Übungen durchführen - und dabei ein Tool verwenden, das Ihnen häufig in der Praxis begegnen wird. Sehen Sie sich das Video " Wie verwende ich GitHub Codespaces mit diesem Kurs?" an, um zu erfahren, wie Sie anfangen können.  
-
-[Level Up (previously Code Challenges)] 
-
-Dieser Kurs ist in GitHub Codespaces integriert, eine sofort verfügbare Cloud-Entwicklungsumgebung, die alle Funktionen Ihrer bevorzugten IDE bietet, ohne dass Sie einen lokalen Rechner einrichten müssen. Mit Codespaces können Sie von jedem Rechner aus und zu jeder Zeit praktische Übungen durchführen - und dabei ein Tool verwenden, das Ihnen häufig in der Praxis begegnen wird. 
-Jede Folge der Code-Challenges-Serie bietet mindestens 12 praktische Übungen in verschiedenen Schwierigkeitsgraden, so dass Sie sich selbst herausfordern und das Gelernte festigen können. Schauen Sie sich das Video " Wie verwende ich GitHub Codespaces mit diesem Kurs?" an, um zu erfahren, wie man einen Codespace einrichtet und zum Einsatz bringt. 
-
-[COURSEDESCRIPTION]
+Schnelle, reaktionsfähige Webanwendungen sind heutzutage unverzichtbar. Rx, die reaktive Erweiterung für JavaScript, bietet Ihnen Lösungen für asynchrone Aufrufe und flüssige Nutzererfahrungen. Die erfahrene Webentwicklerin Martina Kraus zeigt Ihnen in diesem LinkedIn Learning-Kurs, wie Sie mit Rx reaktive Programmierung erfolgreich umsetzen können: Mit Observables "beobachten" Sie den Datenstrom, indem Sie passiv auf ein Ereignis warten. Anwendungen können Änderungen sofort erkennen - in Echtzeit und ohne unnötige Netzwerkaufrufe. Martina Kraus erklärt, was ein Observable ist, und es wird gezeigt, wie RxJS verwendet wird, um Observables zu erstellen und zu abonnieren. Mit Hilfe von Challenge/Solution-Einheiten am Ende der Kapitel können Sie das Erlernte immer wieder ausprobieren und Ihre Lösung mit der Ihrer Trainerin vergleichen.
 
 ## Anleitung
 
@@ -51,12 +36,12 @@ Dieses Problem lösen Sie wie folgt:
 
 ### Autor
 
-**[Name hier eintragen]**
+**Martina Kraus**
 
 _[Berufsbezeichnung hier eintragen]_
 
-Sehen Sie sich andere Kurse des Autors auf [LinkedIn Learning](https://www.linkedin.com/learning/instructors/name_des_autors) an.
+Sehen Sie sich andere Kurse des Autors auf [LinkedIn Learning](https://www.linkedin.com/learning/instructors/martina-kraus) an.
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
-[lil-course-url]: https://www.linkedin.com
-[lil-thumbnail-url]: https:
+[lil-course-url]: https://www.linkedin.com/learning/rxjs-lernen/schnell-und-einfach-in-die-reaktive-programmierung-mit-rxjs-einsteigen
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQGn2cKm3rKRGQ/learning-public-crop_675_1200/0/1694149553132?e=1694764800&v=beta&t=IuEtdSZqrJj2mvEpsdqTQHkwgG-rKdQUFjJsPeEOoOA
